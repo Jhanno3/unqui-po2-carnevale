@@ -43,17 +43,19 @@ class CounterTestCase {
 	}
 	@Test
 	public void testNumerosImpares() {
-		// Getting the even occurrences
 		int amount = counter.contarImpares();
-		// I check the amount is the expected one
 		assertEquals(amount, 9);
 	}
 	@Test
 	public void testCantidadDeMultiplosDe() {
-		// Getting the even occurrences
 		int amount = counter.cantidadDeMultiplosDe(2);
-		// I check the amount is the expected one
 		assertEquals(amount, 1);
 	}
+	
+	public void testmultiplosDe() {
+		int amount = counter.multiplosDe(3,9);
+		assertEquals(amount, 999);
+	}
+	
 	
 }

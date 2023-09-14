@@ -39,4 +39,14 @@ public class Counter {
 		}
 		return contadorMultiplos;
 	}
+	
+	public int multiplosDe(int x, int y) {
+		//int n = 1000;
+		for (int n = 1000; n >= 0; n--) {
+			if ( (n % x == 0) && (n % y == 0)) {
+				return n;
+			}
+		}
+		return -1;
+	}
 }

@@ -7,5 +7,5 @@ public interface SistemaInformatico {
 	
 	public void agregarSolicitudesDeCredito(Credito credito);
 	
-	public void montoDeDineroADesembolsar();
+	public Double montoDeDineroADesembolsar();
 }

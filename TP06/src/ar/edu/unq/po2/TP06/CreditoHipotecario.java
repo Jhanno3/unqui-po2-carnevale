@@ -9,8 +9,7 @@ public class CreditoHipotecario extends Credito {
 		this.garantia = garantia;
 	}
 	
-	@Override
-	public Boolean esSolicitudAceptable(CreditoPersonal credito) {
+	public Boolean esSolicitudAceptable(CreditoHipotecario credito) {
 		return this.verificacionEdad() && this.verificacionSueldoMensual() && this.verificacionMontoTotal();
 	}
 	

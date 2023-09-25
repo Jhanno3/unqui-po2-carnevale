@@ -12,9 +12,7 @@ public class Credito {
 		this.plazoEnMeses = plazoEnMeses;
 	}
 	
-	public Boolean esSolicitudAceptable(CreditoPersonal credito) {
-		return false;
-	}
+	
 	
 	public Double getSueldoAnualCliente() {
 		return cliente.getSueldoAnual();

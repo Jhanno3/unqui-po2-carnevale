@@ -1,8 +1,5 @@
 package ar.edu.unq.po2.TP06;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Cliente {
 	
 	private Banco banco;
@@ -53,6 +50,14 @@ public class Cliente {
 	
 	public void pedirCreditoPersonal(int plazoEnMeses,Double monto){
 		banco.solicitarCreditoPersonal(plazoEnMeses,this,monto);
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public Propiedad getPropiedad() {
+		return propiedad;
 	}
 	
 }
